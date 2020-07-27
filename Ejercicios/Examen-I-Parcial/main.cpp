@@ -113,9 +113,12 @@ int main() {
                  ++i;
             }
 			ciclos++;
-			break;
+			
+				if (ciclos == 10){
+				break;
+				}
 		
-			}	
+		}	
 	
 		
 		system("COLOR 04");
