@@ -1,9 +1,6 @@
 #include <iostream>
 
 using namespace std;
-string productos;
-int imprimirFactura;
-
 
 void menu()
 {
@@ -37,7 +34,9 @@ void menu()
       if (opcion == 4)
     {
      	imprimirFactura();
-    } else {
+    } 
+	else
+	{
      	productos(opcion);
 	}
    }
